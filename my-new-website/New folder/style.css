@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 5px;
+    box-sizing: border-box; 
+    font-family: 'Lucida Sans';
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+main, footer {
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-item {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#gallery{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+}
+
+#prev,
+#next {
+    height: 15px;
+    width: 15px;
+    background: none;
+    border: none;
+}
+
+#gallery-img{
+  width: 100%;  
+}
+
+#prev:hover
+#next:hover{
+    cursor: grab;
+}
